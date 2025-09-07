@@ -1,0 +1,43 @@
+{
+  "dialect": "alphafold3",
+  "version": 3,
+  "name": "test",
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "TNSKNYTWSHRHEGRSYYPYHRHKHPTPHPHNNHSRSSSSYASVTHNHFTNTHHHQHHHHKYSPKWGVVRHHHHHEHVNTFTNHNLNSSGDGRYSSSGDNSNSKSYSSGSSSHNENTNNFTNIRWHETRHWTITTRTRGWHTHNHKKASD",
+        "modifications": [],
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "ccdCodes": [
+          "RET"
+        ]
+      }
+    }
+  ],
+  "modelSeeds": [
+    42
+  ],
+  "bondedAtomPairs": [
+    [
+      [
+        "A",
+        65,
+        "NZ"
+      ],
+      [
+        "B",
+        1,
+        "C15"
+      ]
+    ]
+  ],
+  "userCCD": null
+}
